@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Yangu</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome kwa icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- SIDEBAR (Inaonekana kwenye desktop) -->
+    <div class="sidebar">
+        <div class="profile">
+            <img src="images/riadhwa.jpeg" alt="Picha yangu" class="profile-img">
+            <h2>RIADHWA RWAMBO</h2>
+            <p class="title">Graphic Designer | Web Developer | Social Media Manager</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/riadhwa-rwambo-3956b03b2/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.behance.net/gallery/244510131/iznour"><i class="fab fa-behance"></i></a>
+                <a href="https://github.com/riadhwa24"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        
+        <nav class="nav-menu">
+            <a href="#home" class="active"><i class="fas fa-home"></i> Nyumbani</a>
+            <a href="#kazi"><i class="fas fa-briefcase"></i> Kazi Zangu</a>
+            <a href="#uhodari"><i class="fas fa-code"></i> Uhodari Wangu</a>
+            <a href="#wasiliana"><i class="fas fa-envelope"></i> Wasiliana</a>
+        </nav>
+        
+        <div class="sidebar-footer">
+            <p>© 2024 Riadhwa Rwambo</p>
+        </div>
+    </div>
+
+    <!-- MAKALA KUU (MAIN CONTENT) -->
+    <div class="main-content">
+        
+        <!-- SEHEMU YA HOME -->
+        <section id="home" class="section">
+            <h1 class="section-title">Karibu kwenye Portfolio Yangu</h1>
+            <div class="hero">
+                <div class="hero-text">
+                    <h2>Habari, mimi ni <span class="highlight">RIADHWA RWAMBO</span></h2>
+                    <p class="typing-text"></p>
+                    <p>Nina uzoefu wa zaidi ya miaka 2 katika kubuni, kutengeneza website na kusimamia social media. Nimewasaidia wateja wengi kufikia malengo yao ya kibiashara.</p>
+                    <div class="hero-buttons">
+                        <a href="#kazi" class="btn btn-primary">Angalia Kazi Zangu</a>
+                        <a href="#wasiliana" class="btn btn-secondary">Wasiliana Nami</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/riadhwa.jpeg" alt="Hero Image">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEHEMU YA KAZI -->
+        <section id="kazi" class="section">
+            <h2 class="section-title">Kazi Zangu Bora</h2>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Zote</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+                <button class="filter-btn" data-filter="web">Website</button>
+                <button class="filter-btn" data-filter="social">Social Media</button>
+            </div>
+
+            <div class="projects-grid" id="projects-container">
+                <!-- Projects zitaongezwa na JavaScript -->
+            </div>
+        </section>
+
+        <!-- SEHEMU YA UHODARI -->
+        <section id="uhodari" class="section">
+            <h2 class="section-title">Uhodari Wangu</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-paint-brush"></i> Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Adobe Photoshop</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Adobe Illustrator</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML5 & CSS3</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Bootstrap</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PHP</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Social Media</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Content Creation</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Analytics</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Campaign Management</span>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEHEMU YA MAWASILIANO -->
+        <section id="wasiliana" class="section">
+            <h2 class="section-title">Wasiliana Nami</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Simu</h3>
+                            <p>+255 615 973 207</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>riadhwa24@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Mahali</h3>
+                            <p>Dar es Salaam, Tanzania</p>
+                        </div>
+                    </div>
+                </div>
+                
+              <form class="contact-form" id="contactForm" action="https://formsubmit.co/riadhwa24@gmail.com" method="POST">
+  <!-- Ongeza hii hidden input -->
+  <input type="hidden" name="_subject" value="Ujumbe mpya kutoka portfolio!">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://yoursite.com/thankyou.html">
+  
+  <input type="text" name="name" placeholder="Jina lako" required>
+  <input type="email" name="email" placeholder="Email yako" required>
+  <textarea name="message" rows="5" placeholder="Ujumbe wako" required></textarea>
+  <button type="submit" class="btn btn-primary">Tuma Ujumbe</button>
+</form>
+            </div>
+        </section>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>
